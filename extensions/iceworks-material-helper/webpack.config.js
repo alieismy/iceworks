@@ -44,7 +44,7 @@ const config = {
     new CopyPlugin({
       patterns: [
         {
-            from: 'src/**/*.ejs',
+            from: 'src/autoFillContent/*.ejs',
             to: function() {
               return destPath + '/[name].[ext]';
             },
